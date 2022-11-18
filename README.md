@@ -16,6 +16,6 @@ Our code is based on Python3, and we use libraries as follows:
 4. pmdarima
 
 ## Dataset
-We use dataset introduced in https://github.com/liyaguang/DCRNN for train and evaluate our ARIMA model.
-Remember that the ARIMA model take one time series feature as input and do some predictions for this future. W.R.T. this note we must set a model for each station in this dataset.
+We used the dataset introduced in  https://github.com/liyaguang/DCRNN to train and evaluate our ARIMA model.
+Remember that the ARIMA model take one time series feature as an input and do some predictions for this future. W.R.T. this note we must set a model for each station in this dataset.
 Because of time consuming this task, we do this for 3 first station in dataset. You can train and evaluate model for other stations like these stations.
