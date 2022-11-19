@@ -1,4 +1,4 @@
-## Traffic prediction using ARIMA model
+## Prediction of tarffic trends
 A Traffic dataset is a collection of continuous data points recorded over time. This is why it’s kind of a "time series" data. 
 Auto-Regressive Integrated Moving Average or ARIMA for short,is a time series model,the model predicts future time series values based on previously observed/historical values.
 
