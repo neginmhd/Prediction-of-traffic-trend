@@ -1,6 +1,6 @@
 ## Prediction of tarffic trends
 A Traffic dataset is a collection of continuous data points recorded over time. This is why we call it a "time series" data. 
-Auto-Regressive Integrated Moving Average or ARIMA for short,is a time series model that predicts future time series values based on previously observed/historical values.
+Auto-Regressive Integrated Moving Average or ARIMA for short,is a time series model that predicts future time series values based on previous observed/historical values.
 
 ## Introduction
 Traffic prediction is a core component of intelligent transportation systems or ITS for short.
@@ -18,4 +18,5 @@ Our code is based on Python3, and we use libraries as follows:
 ## Dataset
 We use the dataset introduced in  https://github.com/liyaguang/DCRNN to train and evaluate our ARIMA model.
 Remember that the ARIMA model take one time series feature as an input and do some predictions for future. W.R.T. this note we must make a model for each station in this dataset.
-I do this for 3 first stations in the dataset due to time consuming. You can train and evaluate model for other stations.
+I did this for the 3 first stations in the dataset, You can train and evaluate model for other stations
+
